@@ -103,8 +103,8 @@ img {
 }
 
 .container {
-  max-width: 1128px;
-  gap: 24px;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -265,6 +265,7 @@ img {
 .features-section-list {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-section-header {
