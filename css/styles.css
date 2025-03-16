@@ -202,14 +202,15 @@ img {
 
 /* Sections styles */
 /* Card set */
-/* .card-list {
-  gap: 24px;
+.card-list {
+  /* gap: 24px; */
   display: flex;
   flex-wrap: wrap;
-  row-gap: var(--ident-row);
-  column-gap: var(--ident-col);
-} */
+  /* row-gap: var(--ident-row); */
+  /* column-gap: var(--ident-col); */
+}
 
+/* 
 ul.card-list {
   margin-right: 24px;
   display: flex;
@@ -222,11 +223,16 @@ ul.card-list {
 ul.card-list:last-child {
   margin-right: 0;
 }
-
+ */
 
 
 .card-item {
-  width: calc((100% - var(--ident-row) * (4 - 1)) / 4);
+  margin-right: 24px;
+  flex-basis: calc((100% - 72px) / 4)
+}
+
+.card-item:last-child {
+  margin-right: 0;
 }
 
 
@@ -338,6 +344,9 @@ ul.card-list:last-child {
 
 }
 
+.portfolio-section{
+
+}
 .portfolio-list {
   display: flex;
   gap: 48px 24px;
