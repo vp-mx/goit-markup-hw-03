@@ -354,7 +354,7 @@ ul.card-list:last-child {
 
 }
 
-.portfolio-list>li {
+.portfolio-item {
   gap: 24px;
 }
 
